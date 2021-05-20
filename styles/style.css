@@ -1,0 +1,163 @@
+*{
+	/*box-sizing: content-box;*/
+	
+}
+body{
+		
+		color: white;
+    font-family: Merriweather;
+		
+background-color: #211c1a;
+
+}
+h1{text-shadow: 2px 2px 4px rgba(0,0,0,0.9);}
+a{
+	color: purple;
+	text-decoration: none;
+}
+a:hover{
+	color: purple;
+}
+article{
+	/*background-color: blue;*/
+}
+.sameSize{
+/*	background-color: red;*/
+	height: 100%;
+	width: 100%;
+	}
+.sameSize img{
+	height: 100%;
+	width: 100%;
+}
+.container{
+
+
+}
+.images{
+	/*background-color: yellow;*/
+	/*padding-bottom: 200px;*/
+	padding-bottom: 20%;
+	opacity: 1;
+	transition: opacity  .5s, width .8s;
+}
+.images:hover{
+	
+	opacity: 0.7;
+}
+.row{
+	/*margin-top: 0.5%;
+	margin-left: 0.01%;*/
+	margin-top: 2%;
+	width: 100%;
+}
+.a{
+	margin-left: auto;
+	padding-top: 0%;
+	margin-right: 0;
+}
+p{
+
+	font-size: 80px;
+	text-align: center;
+	padding-top: 50%;
+	/*padding-bottom: 70%;*/
+	/*width: 100%;*/
+}
+.hovertxt{
+	text-transform: uppercase;
+	transition: font-size .8s
+	
+}
+.hovertxt:hover{
+	font-size: 85px;
+}
+.image1{
+	background-color: beige;
+	background-image: url("../gallery/art/a6.png");
+
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: 100%;
+}
+.image2{
+	background-color: #361a30;
+background-image: url("../gallery/art/a5.jpg");
+
+background-size: 105%;
+background-repeat: no-repeat;
+
+background-position: 100%;
+}
+.image3{
+
+background-image: url("../gallery/art/a8.png");
+
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: 100%;
+}
+.image4{
+	background-color: black;
+	background-image: url("../gallery/art/a7.png");
+	background-size: 100%;
+background-repeat: no-repeat;
+background-position: 100%;
+}
+.godown{
+	margin-top: 2%;
+}
+.Svg{
+	width: 80px;
+	transform: scale(1);
+	opacity: 1;
+	transition: opacity .4s, width .5s,background-color .3s;
+	/*margin-left: 30%;*/
+}
+
+.Svgsmall{
+		background-color: white;
+		width: 40px;
+		transform: scale(-1);
+}
+video{
+	margin-top: 10%;
+}
+.carousel-item {
+	width: 100%;
+	height:100%;
+}
+#carouselExampleControls{
+	width: 100%;
+}
+.peque{
+	text-align: left;
+	font-size: 20px;
+}
+.me{
+	padding-top: 10px;
+	font-size: 25px;
+}
+.Svg:hover{
+	background-color: orange;
+	opacity: .7;
+	width: 90px;
+}
+.aboutme{
+	background-color: #101010;
+}
+@media (min-width: 768px){
+	.imatgl{
+		margin-left: 64px;
+	}
+	.imatgr{
+		margin-right: : 64px;
+	}
+}
+h1{
+	font-size: 50px;
+}
+#carouselExampleControls{
+	width: 100%;
+
+}
